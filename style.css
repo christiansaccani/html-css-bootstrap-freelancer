@@ -21,3 +21,27 @@ footer .my_txt_color {
 .my_img_size {
     max-width: 230px;
 }
+
+hr {
+    opacity: 1;
+}
+
+.fa-google-plus-g {
+    margin-left: -0.15em;
+}
+
+.fa-x-twitter {
+    margin-left: -0.11em;
+}
+
+.fa-star {
+    width: auto;
+}
+
+.my_btn_hover:hover {
+    color: #1abc9c;
+}
+
+h3 {
+    font-size: calc(0.6rem + 1vw);
+}
