@@ -58,3 +58,16 @@ h3 {
 .navbar-toggler {
     filter: invert(1);
 }
+
+.my_btn_color {
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+}
+
+.my_font_size {
+    font-size: calc(1rem + .5vw);
+}
+
+.my_footer_size {
+    font-size: calc(.5rem + .5vw);
+}
