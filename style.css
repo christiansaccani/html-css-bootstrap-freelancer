@@ -45,3 +45,16 @@ hr {
 h3 {
     font-size: calc(0.6rem + 1vw);
 }
+
+.my_form_input {
+    border-color: white;
+    border-bottom: solid 1px #cccccc;
+}
+
+::placeholder {
+    color:black !important;
+}
+
+.navbar-toggler {
+    filter: invert(1);
+}
