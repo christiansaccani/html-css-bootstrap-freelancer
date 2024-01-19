@@ -26,14 +26,6 @@ hr {
     opacity: 1;
 }
 
-.fa-google-plus-g {
-    margin-left: -0.15em;
-}
-
-.fa-x-twitter {
-    margin-left: -0.11em;
-}
-
 .fa-star {
     width: auto;
 }
@@ -59,6 +51,14 @@ h3 {
     filter: invert(1);
 }
 
+.my_btn_size {
+    width: 40px;
+    height: 40px;
+    padding: 6px;
+
+    text-align: center;
+}
+
 .my_btn_color {
     background-color: #1abc9c;
     border-color: #1abc9c;
@@ -70,4 +70,14 @@ h3 {
 
 .my_footer_size {
     font-size: calc(.5rem + .5vw);
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .my_btn_size {
+        width: 32px;
+        height: 32px;
+        padding: 3px;
+
+        font-size: .9em;
+    }
 }
